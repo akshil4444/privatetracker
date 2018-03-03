@@ -5,5 +5,5 @@ document.getElementById('submit').addEventListener('click',function(){
 	  chrome.tabs.create({url:"https://torrentbytes.net/browse.php?search=" + input1 + "&cat=0&sc=1"});
 	  chrome.tabs.create({url:"https://privatehd.to/torrents?in=1&search=" +input1 + "&type=0"});
 	  chrome.tabs.create({url:"https://uhdbits.org/torrents.php?searchstr=" +input1 + "&type=0"});
-    
+
 });
